@@ -83,23 +83,25 @@ body {font-family: "Lato", sans-serif;}
 <!-- form 1 starts here-->
 <div id="Form1" class="formcontent" style="display: flex;">
   
-  <div class="container-fluid">
+  <div class="container">
     <h1 style="text-align:center;">Data of CDRF</h1><br>
-    <div col-md-6>
-    <strong>
-      <input type="text" value="MONTH" style="text-align:center;" readonly></input>
-      <input type="text" value="SHIFT" style="text-align:center;position:absolute;right:2%;" readonly></input>
-    </strong>
+    <div class="row">
+      <div class="col-md-6">
+        <input type="text" value="MONTH" style="text-align:center;" readonly></input>
+      </div>
+      <div class="col-md-6">
+        <input type="text" value="SHIFT" style="text-align:center;right:2%;" readonly></input>
+      </div>
     </div>
     <br>
-    <div col-md-6>
+    <div class="col-md">
       <strong>
           <input type="text" value="non-edit" style="text-align:center;" readonly></input>
           <input type="text" value="non-edit" style="text-align:center;position:absolute;right:2%;" readonly></input> 
       </strong>
     </div>
     <br>
-    <div col-md-6>
+    <div class="col-md">
         <strong>
             <input type="text" placeholder="Type to enter text" style="text-align:center;" ></input>
             <input type="text" placeholder="Type to enter text" style="text-align:center;position:absolute;right:2%;" ></input> 
@@ -123,7 +125,47 @@ body {font-family: "Lato", sans-serif;}
 <!-- form3  starts here-->
 <div id="Form3" class="formcontent">
   
-  <p>Tokyo is the capital of Japan.</p>
+  <div class="container">
+  <div class="row">
+    <div class="col" >
+      <h2 style="text-align:center;">FORM - 3</h2>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-md-6">
+      <div align="center">
+      <input type="text" class="form-control" value="MONTH" style="text-align:center;" readonly></input>
+      </div></div>
+      <div class="col-md-6">
+      <div align="center">
+      <input type="text" class="form-control" value="MONTH" style="text-align:center;" readonly></input>
+      </div></div>
+      </div>
+    <div class="row">
+      <div class="col-md-3">
+      <div align="center">
+        <input type="text" class="form-control" placeholder="Type to enter text" style="text-align:center;" ></input>
+      </div></div>
+      <div class="col-md-3">
+      <div align="center">
+        <input type="text" class="form-control" placeholder="Type to enter text" style="text-align:center;" ></input>
+      </div></div>
+      <div class="col-md-3">
+      <div align="center">
+        <input type="text" class="form-control" placeholder="Type to enter text" style="text-align:center;" onclick="alert('button');" ></input>
+      </div></div>
+      <div class="col-md-3">
+      <div align="center">
+        <input type="text" class="form-control" placeholder="Type to enter text" style="text-align:center;" ></input>
+      </div></div>
+    </div>
+    <div class="row">
+    <div class="col" style="align-content:center;">
+       <div align="center">
+      <input type="submit" style="margin:auto;align:center" class="btn btn-large btn-lg btn-success"></input>
+      </div>
+    </div>
+  
 </div>
 
 <!-- form4  starts here-->
