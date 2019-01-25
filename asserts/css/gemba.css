@@ -1,0 +1,126 @@
+.sidebarone {
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-family: 'ABBvoice-medium';
+    background-color: transparent !important;
+    color: #464646 !important;
+    line-height: 30px;
+    font-size: 13px;
+	}
+	.breadcrumbone {
+	padding: 8px 15px;
+    margin: 0px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+	}
+	.lignhieght {
+		line-height: 2.428571 !important;
+	}
+	.widthper {
+		width: 90% !important;
+		text-align:left;
+	}
+	.dropdown.open ul li {
+    cursor: pointer;
+	}
+	.dropdowndownarrow {
+		float: right;
+		margin-top: 10px;
+	}
+	.paddingten {
+		    padding: 10px;
+	}
+	.displayinline {
+	display: flow-root;
+	}
+	.ullistyl li {
+	background-color: unset !important;
+    border: none !important;
+	text-align:left;
+    border-bottom: 1px solid #ddd !important;
+	}
+	.numberstyle {
+	counter-reset:li;
+	}
+	.numberstyle li:before {
+		    padding: 3%;
+		content: counter(li);
+		counter-increment: li;
+	}
+	.ulliheading {
+	background: #f0f0f0;
+    padding: 5px;
+    color: #000;
+	}
+	.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
+	}
+	.percent {
+    display: inline-block;
+    line-height: 110px;
+    z-index: 2;
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chartheading {
+	text-transform: capitalize !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+}
+.linname {
+	background-color: #f0f0f0 !important;
+    text-transform: capitalize !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 10px;
+}
+
+text.highcharts-credits {
+    display: none;
+}
+g.highcharts-legend-item.highcharts-pareto-series.highcharts-color-0.highcharts-series-0 {
+    display: none;
+}
+g.highcharts-legend-item.highcharts-column-series.highcharts-color-1.highcharts-series-1 {
+    display: none;
+}
+
+.absolute {
+	position: absolute;
+}
+.bg-black {
+	background: #000000 !important;
+	color: #ffffff !important;
+}
+.margintop {
+	margin-top:10px
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.headtitle {
+	background-color: #f0f0f0 !important;
+    text-transform: capitalize !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+}
+.mybtnsm {
+	margin: 2px !important;
+}

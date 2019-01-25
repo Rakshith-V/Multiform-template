@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .a {
+        fill: #d2d2d2;
+        opacity: 0;
+      }
+
+      .b {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <title>arrowDown-2Dark</title>
+  <g>
+    <rect class="a" width="24" height="24"/>
+    <polygon class="b" points="12 14.35 8 10.35 8.7 9.65 12 12.94 15.3 9.65 16 10.35 12 14.35"/>
+  </g>
+</svg>

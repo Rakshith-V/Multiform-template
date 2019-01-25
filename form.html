@@ -22,6 +22,11 @@
 * {box-sizing: border-box}
 body {font-family: "Lato", sans-serif;}
 
+/* input{
+  width:%;
+  height:20px;
+} */
+
 /* Style the tab */
 .tab {
   float: left;
@@ -69,7 +74,7 @@ body {font-family: "Lato", sans-serif;}
 </head>
 <body>
  
-
+<div class="container"></div>
 <h2>Forms</h2>
 <p>Click on the form options inside the tabbed menu:</p>
 
@@ -85,21 +90,21 @@ body {font-family: "Lato", sans-serif;}
   
   <div class="container-fluid">
     <h1 style="text-align:center;">Data of CDRF</h1><br>
-    <div col-md-6>
+    <div>
     <strong>
-      <input type="text" value="MONTH" style="text-align:center;" readonly></input>
+      <input type="text" value="MONTH" style="text-align:center;" id="date" readonly></input>
       <input type="text" value="SHIFT" style="text-align:center;position:absolute;right:2%;" readonly></input>
     </strong>
     </div>
     <br>
-    <div col-md-6>
+    <div>
       <strong>
-          <input type="text" value="non-edit" style="text-align:center;" readonly></input>
-          <input type="text" value="non-edit" style="text-align:center;position:absolute;right:2%;" readonly></input> 
+          <input type="text" value="*non-edit*" style="text-align:center;" readonly></input>
+          <input type="text" value="*non-edit*" style="text-align:center;position:absolute;right:2%;" readonly></input> 
       </strong>
     </div>
     <br>
-    <div col-md-6>
+    <div>  
         <strong>
             <input type="text" placeholder="Type to enter text" style="text-align:center;" ></input>
             <input type="text" placeholder="Type to enter text" style="text-align:center;position:absolute;right:2%;" ></input> 
@@ -116,8 +121,24 @@ body {font-family: "Lato", sans-serif;}
 
 <!-- form2  starts here-->
 <div id="Form2" class="formcontent">
-  
-  <p>Paris is the capital of France.</p> 
+    <div class="container-fluid">
+        <h1 style="text-align:center;">Data of *form2*</h1><br>
+        <div>
+        <strong>
+          <input type="text" value="MONTH" style="text-align:center;" id="date" readonly></input>
+          <input type="text" value="SHIFT" style="text-align:center;position:absolute;right:2%;" readonly></input>
+        </strong>
+        </div>
+        <br>
+        <div>
+          <strong>
+              <input type="text" placeholder="Type to enter text" style="text-align:center;" ></input>
+              <input type="text" placeholder="Type to enter text" style="text-align:center;position:absolute;right:2%;" ></input>
+          </strong>
+          <div align="center">
+              <input type="submit" style="margin:auto;align:center" class="btn btn-large btn-lg btn-success"></input>
+          </div>
+        </div> 
 </div>
 
 <!-- form3  starts here-->
@@ -128,9 +149,8 @@ body {font-family: "Lato", sans-serif;}
 
 <!-- form4  starts here-->
 <div id="Form4" class="formcontent">
-  
-    <p>Delhi is the capital of India.</p> 
-  </div>
+  <input type="submit"></input>
+</div>
 
 
 <script>
@@ -148,6 +168,12 @@ function openForm(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
+window.onload = function abc() {
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var date = new Date();
+
+    document.getElementById('date').innerHTML = months[date.getMonth()] + ' ' + date.getFullYear();
+};
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
@@ -156,9 +182,3 @@ document.getElementById("defaultOpen").click();
 </html> 
 
 
-<!-- window.onload = function() {
-    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];;
-    var date = new Date();
-
-    document.getElementById('date').innerHTML = months[date.getMonth()] + ' ' + date.getFullYear();
-}; -->
