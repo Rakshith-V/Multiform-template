@@ -32,6 +32,15 @@
                 background-color: black;
                 border: 3px solid #555;
             }
+
+            .group{
+            display:block;
+             }
+
+            .form-group col-md-2{
+            padding-left:40px;
+            padding-right:40px;
+            }
         </style>
 </head>
 <body>
@@ -45,15 +54,25 @@
                     </strong>
                 </div>
                 <br>
-                <div align="center">
+                <div class="form-row" align="center">
                     <strong>
-                        <input type="text" placeholder="Maker number" style="text-align:center;" ></input>
-                        <input type="text" placeholder="CT feeder number" style="text-align:center;" ></input>
-                        <input type="text" placeholder="CT Operation number" style="text-align:center;" ></input>
-                        <input type="text" placeholder="CT Blend" style="text-align:center;background-color: #3CBC8D;" onclick="alert('pop-up');" readonly></input>
-                        <input type="text" placeholder="Quantity" style="text-align:center;background-color: #3CBC8D;" onclick="alert('pop up when operation changed');" readonly></input>
+                        <div class="form-group col-sm-3">
+                        <label for="ip1">Maker number</label>
+                        <input type="text" class="form-control" placeholder="Enter value here" style="text-align:center;width=50%;" ></input>
+                        </div>
+                        <div class="form-group col-sm-3">
+                        <label for="ip2">CT feeder number</label>
+                        <input type="text" class="form-control" placeholder="Enter value here" style="text-align:center;" ></input>
+                        </div>
+                        <div class="form-group col-sm-3">
+                        <label for="ip3">CT Operation number</label>
+                        <input type="text" class="form-control" placeholder="Enter value here" style="text-align:center;" ></input>
+                        </div>
+                        
                     </strong>
-        
+                    <div>
+                    <input type="text" placeholder="CT Blend" style="text-align:center;background-color: #3CBC8D;" onclick="alert('pop-up');" readonly></input>
+                    </div>
                 </div>
                 <div align="center">
                         <input type="submit" style="margin:auto;margin:2.0em" class="btn btn-large btn-lg btn-success"></input>
