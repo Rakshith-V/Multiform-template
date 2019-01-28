@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-<form action="form1.php" method="POST">
+<form action=".php" method="POST">
 <div class="container">
     <h2 style="text-align:center;">Data of CDRF</h2><br>
     <div align="center">
@@ -79,9 +79,9 @@
   </div>
 
       <br>
-      <div align="center">
+      <div align="center" style="text-align:center;">
 
-        <input type="submit" style="margin:auto;" class="btn btn-large btn-success"></input>
+        <button type="submit" style="margin:auto;" class="btn  btn-success">Submit</input>
 
       </div>
     </div>

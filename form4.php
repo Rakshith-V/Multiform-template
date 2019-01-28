@@ -34,7 +34,7 @@
         </style>
 </head>
 <body>
-    <form action="form4.php" method="POST">
+    <form action=".php" method="POST">
         <div class="container-fluid">
             <h1 style="text-align:center;">Machine</h1><br>
             <div align="center">
@@ -54,13 +54,14 @@
                     <div class="form-group col-md-6">
                     <label for"ipi">Winnowing Rejection</label>
                     <input type="text" id="ipi" placeholder="Data of Winnowing rejection" class="form-control" style="text-align:center;width:50%;" required></input>
+                    </div>
                 </strong>
             </div>
             <div align="center">
             <input type="text" class="fixed" placeholder="MNC" style="text-align:center;" readonly></input>
             </div>
             <div align="center">
-                <input type="submit" style="margin:auto;margin:2.0em" class="btn btn-large btn-success"></input>
+                <button type="submit" style="margin:auto;margin" class="btn btn-large btn-success">Submit</input>
             </div>
         </div>
     </form>  

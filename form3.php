@@ -44,8 +44,8 @@
         </style>
 </head>
 <body>
-    <form action="form3.php" action="POST">
-            <div class="container-fluid">
+    <form action=".php" action="POST">
+            <div class="container">
                 <h2 style="text-align:center;">CT Feeder no. (based on entry made by CTS Clerk)</h2><br>
                 <div align="center">
                     <strong>
@@ -54,7 +54,7 @@
                     </strong>
                 </div>
                 <br>
-                <div class="col-sm-12" align="center">
+                <div class="col-sm-12" align="center" style="margin:1em;">
                     <strong>
                         <div class=" col-sm-3">
                         <label for="ip1">Maker number</label>
@@ -74,8 +74,10 @@
                         </div>
                         </strong>
                 </div>
-                <div align="center">
-                        <input type="submit" style="margin:auto;margin:2.0em" class="btn btn-large btn-lg btn-success"></input>
+                <br>
+                <br>
+                <div align="center" style="padding:5em;">
+                        <button type="submit" style="margin:auto;" class="btn btn-large btn-success">Submit</input>
                 </div>
             </div> 
     </form> 

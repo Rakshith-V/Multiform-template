@@ -62,7 +62,7 @@
                     </div>
                     <br>
                     <div align="center">
-                          <input type="submit" style="margin:auto;" class="btn btn-large btn-success"></input>
+                          <button type="submit" style="margin:auto;" class="btn btn-large btn-success">Submit</input>
                     </div>
                 </div> 
     </form>
